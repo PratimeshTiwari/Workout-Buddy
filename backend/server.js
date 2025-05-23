@@ -6,8 +6,7 @@ const mongoose = require('mongoose')
 const workoutRoutes = require('./routes/workouts') //no need to specify extension here
 
 
-
-//launching the express app 
+//launching the express app. 
 const app = express()
 
 //register a global middleware 
