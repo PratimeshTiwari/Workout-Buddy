@@ -1,0 +1,2 @@
+#create controllers to create functions for each router request as in
+ to avoid bloating the routes/workout.js file 

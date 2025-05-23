@@ -1,0 +1,39 @@
+Create react app : npx create-react-app appName
+
+Redundant files in the react app folder by default : (delete them)
+->App.css
+->App.test.js
+->logo.svg
+->reportWebVitals.js
+->setupTest.js 
+
+Inside the index.js : Remove : (as the file is deleted)
+->import reportWebVitals from './reportWebVitals';
+->reportWebVitals();
+
+Inside the App.js : remove 
+->header tag and its associated tags inside 
+->import logo from '.logo.svg'
+->import './App.css'
+
+Now install react router dom package (to add different pages to this application)
+->npm install react-router-dom
+
+->browser router : wraps everywhere we want to use the router 
+->Routes : wraps all our individuals routes 
+->Route : create a single route 
+
+->Now Create pages and components 
+
+#self closing Route 
+<Route path="/" element={<Home/>}/>
+
+#enclosing routes
+<Route path="/" element={<Home/>}></Route>
+
+#Link tag is basically <a> anchor tag 
+->helps avoid request to the backend for the links 
+->it handles the routing locally in the browser 
+           
+            
+            

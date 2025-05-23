@@ -1,0 +1,24 @@
+Fetching data in react app using backend api 
+
+Task : 
+->fetching all the workout and list them in home page 
+->to do that : we can use effectHook() 
+->useEffectHook() fires a function when the component is rendered 
+->we only want to call effectHook once when it first is rendered 
+->effectHook args = function , emptyArray 
+#here empty array makes use it is fired only once since it will be stored in the first call itself
+
+#basically useEffect is going to fire Home function when the component first renders 
+
+->install CORS (cross origin requests) if node and react server are not different ports
+->else add proxy field to the front json file and set it to equal to node server address
+
+Passing workout as a prop while making a react app : 
+When you pass workout as a prop in a React app, it means that you're 
+providing the workout data from a parent component to a child component.
+
+#avoid refreshing page when workout is added from the workout form 
+->to do this : update local state to keep it in sync with the database 
+->this is done via React Context 
+
+

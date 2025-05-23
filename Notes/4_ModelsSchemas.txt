@@ -1,0 +1,16 @@
+Schema : it defines the structure of a particular type of document inside a database 
+Model : apply schema to a particular model and use that model to interact with 
+        a collection of that name 
+
+#create schemas so that each document in the database follows a common pattern
+
+#1st schema arg = object is passed where we define this schema
+#2nd schema arg = timestamp =>when we try to create a new document it auto adds 
+                  a created app property like app creation , app updated 
+
+#since request.json middleware is used ,all of that request body that comes along with the
+ request is going to be passed onto the requst object so we can use it
+
+
+#when we create a new document , once's that been created , the response we get 
+ is the new document that was just created along with the id of the document 

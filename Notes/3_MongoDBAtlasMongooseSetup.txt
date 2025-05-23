@@ -1,0 +1,10 @@
+Setup Atlas Account on mongoDb
+->npm install mongodb
+
+#setup mongo uri in .env and use that in server.js 
+->npm install mongoose 
+#mongoose = odm libray (object data modelling) 
+
+->it wraps mongodb with an extra layer than allows us to use methods 
+  to read and write database documents and gives us a way to declare models 
+  and schemas to ensure a more strict data structure 

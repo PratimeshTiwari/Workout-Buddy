@@ -1,0 +1,16 @@
+->update page content on form submission without refresh 
+->basically syncing its data with the database 
+->react context is used here
+#this helps to avoid passing workout state as props down to any component 
+ that needs to use or update it 
+#react context is a way we can provide global state to different components in 
+ application and we can also update that state by dispatching actions from those
+ components
+#here global state = workout data from mongodb
+#so then rather than passing workout state as props between components and pages to 
+ update it , we can just access it and upate it directly then using a context provider 
+ from any component
+
+#reducer hook args : reducer function , initial value for states
+ #reducer hook is similar to useState where we get a state value and a function(dispatch in this case)
+ to update state values along with defining initial values through an object 

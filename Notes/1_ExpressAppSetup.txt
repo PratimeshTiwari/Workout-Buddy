@@ -1,0 +1,36 @@
+server.js : entry point for the backend application
+            where express app is registered 
+
+package.json : helps to keep track of the dependencies
+               and also register our own custom scrip
+
+#npm needs node 
+#to run file : node server.js
+#-g : install package globally 
+
+#running custom scripts : npm run scriptName 
+#adding scripts : add in package.json
+
+commands ran (in sequence) : 
+=============================
+->cd backend 
+->npm init -y (-y fills the answers with the default values),
+  fills the package.json file 
+
+#installing express package to create express app
+->npm install express
+
+#now setup express app in server.js 
+#install nodeman #issue installing on mac os
+->npm install -g nodeman
+
+#create environment variables hidden for privacy 
+->create .env file #add to gitignore 
+->accessing these variables -> npm install dotenv 
+->dotenv is a package that loads environment variables from dotenv file 
+  into the proces.env object available in the node.js environment
+
+#postman helps to simulate various types of request like get,post,delete to our server
+#middleware -> code that executes between user getting a request on a server and user sending 
+               a response 
+

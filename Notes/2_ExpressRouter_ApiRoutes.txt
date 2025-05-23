@@ -1,0 +1,23 @@
+API Endpoints :
+----------------
+
+#gets all of the workout documents from database and sends them all 
+back in json format to the browser 
+1)GET /workouts          -> gets all the workout documents 
+
+2)POST /workouts         -> creates a new workout document in db
+
+#id is a route parameter that represent id of a particular workout,
+gets us a single workout document from databse and sends it back to browsers
+3)GET /workouts /:id     -> gets a single workout document
+
+#here id = id of the document that we want to delete 
+4)DELETE /workouts/:id   ->deletes a single workout from database 
+5)PATCH /workout/:id     ->Updates a single workout 
+
+
+-----------------------------------------------------------------------
+
+
+
+
